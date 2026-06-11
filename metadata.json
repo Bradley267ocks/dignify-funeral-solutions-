@@ -1,0 +1,6 @@
+{
+  "name": "Dignify Funeral Solutions",
+  "description": "Honouring Life With Dignity, Respect & Compassion. Professional, compassionate, and affordable funeral services, tombstones, livestock, and planning support.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
