@@ -1,8 +1,8 @@
 import { FuneralPlan, Testimonial, FAQItem, PolicyImage } from './types';
 
 // New generated family-oriented imagery paths
-export const FAMILY_HERO_IMAGE = '/src/assets/images/south_african_family_protected_1781191569895.jpg';
-export const CONSULTANT_IMAGE = '/src/assets/images/caring_consultant_office_1781191583842.jpg';
+export const FAMILY_HERO_IMAGE = 'https://i.ibb.co/YThqWMYt/1781192929013.png';
+export const CONSULTANT_IMAGE = 'https://i.ibb.co/JwgLsQ70/1781192926324.png';
 export const PEACE_OF_MIND_IMAGE = '/src/assets/images/peace_of_mind_finance_1781191599095.jpg';
 
 export const LOGO_PATH = 'https://i.ibb.co/JwtHchSN/1000487361-removebg-preview-logo.png';
