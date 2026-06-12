@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Phone, MessageSquare, Mail, MapPin, Send, CheckCircle2 } from 'lucide-react';
+import { Phone, MessageSquare, Mail, MapPin, Send, CheckCircle2, Facebook } from 'lucide-react';
 
 export default function ContactUs() {
   const [name, setName] = useState('');
@@ -73,6 +73,22 @@ export default function ContactUs() {
               <div>
                 <span className="text-[10px] text-emerald-600 font-extrabold uppercase tracking-widest block mb-1">WhatsApp Instant Desk</span>
                 <span className="font-serif font-bold text-xl text-gray-900 block group-hover:text-emerald-600 transition-colors">073 027 8136</span>
+              </div>
+            </a>
+
+            {/* Facebook */}
+            <a
+              href="https://www.facebook.com/profile.php?id=100095023537215"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-6 p-6 bg-blue-50/40 hover:bg-blue-100 border border-blue-100 hover:border-blue-200 rounded-[2rem] transition-all duration-300 group shadow-sm"
+            >
+              <div className="w-14 h-14 rounded-2xl bg-[#1877F2] text-white flex items-center justify-center shrink-0 shadow-lg shadow-blue-200">
+                <Facebook className="w-6 h-6" />
+              </div>
+              <div>
+                <span className="text-[10px] text-blue-600 font-extrabold uppercase tracking-widest block mb-1">Facebook Community</span>
+                <span className="font-serif font-bold text-xl text-gray-900 block group-hover:text-blue-600 transition-colors">Our Official Page</span>
               </div>
             </a>
 
